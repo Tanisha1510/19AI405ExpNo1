@@ -38,5 +38,5 @@
 <p>PEAS description is developed by the performance, environment, actuators, and sensors in an agent.</p>
 <h3>STEP 4:Implementing the AI agent:</h3>
 <p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
-<h3>STEP 5:</h3>
-<p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
+<h3>STEP 5:Measure the performance parameters:</h3>
+<p> For each treatment performance incremented, for each movement performance decremented</p>
