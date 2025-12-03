@@ -40,3 +40,34 @@
 <p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
 <h3>STEP 5:Measure the performance parameters:</h3>
 <p> For each treatment performance incremented, for each movement performance decremented</p>
+
+
+<H3>PROGRAM</H3>
+
+
+
+
+```
+rooms = ["Room 1", "Room 2"]
+
+for room in rooms:
+    print(f"\n--- Checking {room} ---")
+    name = input("Enter patient's name: ")
+    age = input("Enter age: ")
+    gender = input("Enter gender (M/F): ")
+    temp = float(input("Enter body temperature (°F): "))
+    print("Temperature:", temp, "°F")
+    if temp >= 102:
+        treatment = "Severe fever → Paracetamol, water intake, rest, monitor temperature closely."
+    elif temp >= 100:
+        treatment = "High fever → Paracetamol and complete rest."
+    elif temp >= 99:
+        treatment = "Mild fever → Warm fluids, rest."
+    else:
+        treatment = "Normal → No medicine needed."
+    print("Treatment:", treatment)
+```
+
+<H3>OUTPUT</H3>
+<img width="865" height="334" alt="image" src="https://github.com/user-attachments/assets/b880b226-37f5-4476-9f76-2352f1137f52" />
+
